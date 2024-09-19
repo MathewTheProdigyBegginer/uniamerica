@@ -34,6 +34,10 @@ function displayUserData() {
   }
 }
 
+//vitor solution
+
+window.addEventListener('load', displayUserData);
+
 // Função para limpar o formulário
 function clearForm() {
   document.getElementById('name').value = '';
